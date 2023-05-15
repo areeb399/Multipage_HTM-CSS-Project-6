@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  background: #0f0f10;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+body{
+    margin: 0 15vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-li{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+nav{
+    display: flex;
+    width: 100% ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.nav-li{
+    margin-right: 100px;
+}
+.nav-li:first-child a{
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.nav-li a{
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.navbar{
+    display: flex;
+    gap: 10px;
+}
+
+.button-nav{
+    border: none;
+    background-color: #1e1e21;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 8px 35px;
+}
+
+img[alt="mainImage"]{
+    position: relative;
+    width: 230px;
+    top: -260px;   
+    left:120px 
+}
+
+.main-right{
+    display: flex;
+    
+}
+
+img[alt="onEar"]{
+    position: absolute;
+    top: 120px;
+    left: 700px;
+    width: 300px;
+}
+
+main div h2{
+    position: absolute;
+    top: 200px;
+    left: 650px ;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+main div h4{
+    position: absolute;
+    top: 260px;
+    left: 650px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+main div p{
+    position: absolute;
+    top: 300px;
+    left: 650px;
+    width: 18%;
+    font-size: 12px;
+    font-weight: 100;
+    gap: 30px;
+}
+
+.bag{
+    display: flex;
+    position: absolute;
+    top: 410px;
+    left: 650px;
+    gap: 20px;
+    border: none;
+    padding: 8px 22px;
+    border-radius: 12px;
+    background-color: #1e1e21;
+}
+
+.bag p, span,img{
+    background: transparent;
+}
+
+.bag p{
+    font-size: 12px;
+}
+
+.bag span{
+    font-weight: 500;
+}
+
+.logo ul{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    left: 320px;
+    top: 500px;
+    scale: 0.9;
+}
+
+.logo li{
+    list-style: none;
+}
+
+img[alt="specsLogo"]{
+    position: relative;
+    left: 340px;
+}
+
+.specs-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.battery{
+    position: relative;
+    margin-top: 20px;
+    margin-left: -40px;
+}
+
+.charger{
+    position: relative;
+    margin-top: 20px;
+    margin-left: -40px;
+}
+
+.microphone{
+    position: relative;
+    margin-top: 20px;
+}
+
+.p{
+    font-size: 13px;
+    font-weight: 200;
+    width:60%
+}
+
+img[alt="caseLogo"]{
+    position: relative;
+    margin-top: 160px;
+    margin-left: 350px;
+}
+
+.case1{
+    display: flex;
+}
+img[alt="caseImage"]{
+    width: 260px;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.case1 p{
+    width: 25%;
+    position: relative;
+    margin-top: 130px;
+    margin-left: 60px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.info{
+    display: flex;
+    position: absolute;
+    right: 460px;
+    top: 1600px;
+    background-color: #1e1e21;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+.info p{
+    background: transparent;
+    padding-left: 25px;
+}
+
+.buy{
+    background: #181a1b;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 70px;
+    padding: 40px 0;
+  }
+  
+  .buy div,
+  .buy p,
+  .buy h3{
+    background-color: transparent;
+  }
+  
+  .buy div {
+    width: 25%;
+  }
+  
+  .buy div h3 {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  .buy div p {
+    color: #bdc0c2;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  #buy-now{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 8px;
+  }
+
+  #buy-now p{
+    position: relative;
+    top: 8px;
+  }
+
+  img[alt="buy-now"]{
+    height: 340px;
+    width: 420px;
+  }
+
+  img[alt="productLogo"]{
+    position: relative;
+    top: 80px;
+    left: 380px;
+    width: 200px;
+  }
+
+  .product-items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left: 50px;
+    width: 400px;
+    position:relative;
+    margin-top: 150px;
+    margin-left: 230px;
+  }
+  
+  .product-card {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    background: #181a1b;
+    border-radius: 8px;
+  }
+  
+  .product-img {
+    width: 75px;
+    height: 100px;
+    position: absolute;
+    z-index: 100;
+    top: -40px;
+    left: 28px;
+  }
+  
+  .product-img,
+  .product-card p,
+  .product-card span,
+  .product-card img,
+  .product-card div {
+    background-color: transparent;
+  }
+  
+  .product-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+  
+  .product-info p {
+    font-size: 12px;
+  }
+  
+  .product-info p span {
+    color: #bdc0c2;
+  }
+  
+  .product-info div {
+    background: #0a0a0b;
+    border-radius: 8px;
+    padding: 2px 6px;
+  }
+  
+  .product-info div img {
+    width: 13px;
+    height: 13px;
+  }
+
+  footer{
+    margin: 100px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .footer-logo{
+    scale: 0.8;
+  }
+  ul li{
+    list-style: none;
+  }
+  
+  ul li a{
+    font-size: 12px;
+    color: #BDC0C2;
+    
+  }
+  
+  ul li:first-child a{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+  }
+  
+  ul li:first-child{
+    margin-bottom: 10px;
+  }
+
+  .footer-subscription{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .footer-subscription div:first-child{
+    background: #181A1B;
+  border-radius: 8px;
+  padding: 5px 10px;
+  display: flex;
+  }
+  
+  .footer-subscription div:first-child input{
+    border: none;
+    background-color: transparent;
+  }
+  
+  .subscribe-button{
+    background: #0A0A0B;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .subscribe-button p{
+    font-size: 12px;
+  }
+  
+  img[alt="upArrow" ]{
+    position: absolute;
+    right: -160px;
+    scale: 0.8;
+  }

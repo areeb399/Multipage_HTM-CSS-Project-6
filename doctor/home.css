@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow:hidden
+    background-color: #f0f4f5;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+body{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+nav img{
+    width: 140px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.home{
+    font-weight: 700;
+    color: #20bc7e;
+}
+
+.head{
+    margin-top: 50px;
+    display: flex;
+    height: 85vh;
+}
+
+
+.head-left{
+    width: 50%;
+    margin-left: 5% ;
+    position: relative;
+}
+
+img[alt="topAngle"]{
+    width: 30px;
+}
+
+.heading{
+    font-size: 70px;
+}
+
+.paragraph{
+    position: relative;
+    margin-top:20px ;
+    font-size: 20px;
+    color: grey;
+
+}
+
+img[alt="bottomAngle"]{
+    position: absolute;
+    width: 30px;
+    right: 20px;
+}
+
+button{
+    background-color: #20bc7e;
+    color: white;
+    margin-left: 20px;
+
+}
+
+.mouse{
+    position: relative;
+    margin-left: 690px;
+    width: 35px;
+    
+}
+
+
+.head-right{
+    width: 50%;
+    
+}
+
+img[alt="stethoscope"]{
+    position: absolute;
+    width: 90%;
+    top: -60px;
+    right: -15%;
+    z-index: -1;
+    
+}
+
+button{
+    position: relative;
+    margin-top: 18px;
+    border: none;
+    border-radius: 10px;
+    padding:14px 22px 14px 22px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+
+.greenbox{
+    position: absolute;
+  width: 32%;
+  bottom: 10%;
+  margin-left: 140px
+  
+}
+.yellowbox{
+    position: absolute;
+    width: 30%;
+    bottom: 50px;
+    margin-left: 195px;
+}
+
+.doctor{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 90%;
+  margin-right: 10px;
+}
